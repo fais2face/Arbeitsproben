@@ -1,0 +1,177 @@
+pre{
+    background:#fff;
+    display: inline-block !important;
+    padding:10px;
+}
+
+.blyxt_wrapper {
+    --blyxt-blue: #004775;
+    --blyxt-red: #C81D1C;
+    background: #e1e1df;
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+    padding: 50px 30px;
+}
+
+.blyxt_wrapper h1{
+    color: var(--blyxt-red);
+    font-weight:600
+}
+.blyxt_wrapper h2 {
+    color:var(--blyxt-blue);
+    font-weight: 600;
+}
+
+.blyxt_wrapper h3 {
+    color:var(--blyxt-blue);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.blyxt_wrapper th,
+.blyxt_wrapper td {
+    font-size: 14px;
+}
+
+.blyxt_wrapper input[type="text"],
+.blyxt_wrapper textarea {
+    padding: 4px 10px;
+    border: 1px solid #7db2d4;
+}
+
+.blyxt_wrapper .showall {
+    color: var(--blyxt-blue);
+}
+.blyxt_wrapper p {
+
+}
+
+.blyxt_wrapper h1 {
+    font-size:36px;
+    line-height: 1.2;
+}
+.blyxt_wrapper h2 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.blyxt_wrapper td a img{
+    width: 20px;
+}
+.blyxt_wrapper .btn-search {
+    background: var(--blyxt-blue);
+    color: #fff;
+    font-weight: 500;
+}
+.blyxt_wrapper .btn-search:hover {
+    background: #0d5786;
+    color:#fff;
+}
+
+.blyxt_wrapper label {
+    font-weight: 500;
+    color: var(--blyxt-blue);
+}
+.blyxt_wrapper a.float-start {
+    color: var(--blyxt-blue);
+    text-decoration: none;
+}
+.blyxt_wrapper a.float-start:hover {
+    text-decoration: underline;
+}
+.blyxt_wrapper .table th {
+    vertical-align: bottom;
+    font-weight: 600;
+}
+.blyxt_wrapper .table {
+    table-layout: auto;
+}
+.blyxt_wrapper .table-wrapper {
+    padding: 20px 40px;
+    background: #fff;
+}
+
+#blyxt_settings .form-check-label {
+    line-height: 26px;
+    position: relative;
+    top: -0.5em;
+    color:var(--blyxt-blue);
+}
+#blyxt_settings .form-check {
+    padding-left: 0;
+    margin-top: 1em;
+}
+
+#blyxt_settings .form-group {
+    margin-bottom: 10px;
+}
+
+#blyxt_settings .jumbotron pre {
+    background: #f0d082;
+}
+#blyxt_settings .jumbotron {
+    padding: 30px;
+    background: #fff;
+    border-radius: 25px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 26px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #52d33c;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #52d33c;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

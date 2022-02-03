@@ -1,0 +1,77 @@
+#bl_location_wrapper {
+    --p-color: #004775;
+    --hl-color: #C81D1C;
+    background-color: rgb(225,225,223);
+    width: 100%;
+    max-width: none;
+    float: left;
+    padding: 60px 40px 45px;
+    top: 0;
+    position: relative;
+    z-index: 10;
+    margin: 0;
+}
+#bl_location_wrapper .col-6{
+    width: 50%;
+    float: left;
+}
+
+#bl_location_wrapper h2,
+#bl_location_wrapper h3{
+    color:var(--hl-color);
+    font-size:22px;
+    margin: 0;
+    line-height: 1.688;
+}
+
+#bl_location_wrapper #bl_locationurl{
+    color:var(--hl-color);
+    font-family: sans-serif;
+    font-size:22px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.688;
+    text-decoration: underline;
+}
+
+#bl_location_wrapper ::after,
+#bl_location_wrapper ::before{
+    content: none;
+}
+
+#bl_location_wrapper p{
+    margin:0;
+    color: var(--p-color);
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#bl_location_wrapper .bl_contacts a{
+    color: var(--p-color);
+    font-size:16px;
+    text-decoration: none;
+}
+
+#bl_location_wrapper .bl_contacts p {
+    margin-bottom:15px;
+}
+
+.bl_times .bl_tday {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.bl_times .bl_totime {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+@media(max-width: 640px){
+    .bl_location_col-1 {
+        padding-bottom: 40px;
+    }
+    #bl_location_wrapper {
+        padding: 30px 5px 45px;
+    }
+}

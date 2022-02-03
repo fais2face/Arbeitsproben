@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: blyext\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-18 12:32+0000\n"
+"PO-Revision-Date: 2021-12-21 13:46+0100\n"
+"Last-Translator: Faisal Rahim <hello@faisman.de>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "monday"
+msgstr "Montag"
+
+msgid "tuesday"
+msgstr "Dienstag"
+
+msgid "wednesday"
+msgstr "Mittwoch"
+
+msgid "thursday"
+msgstr "Donnerstag"
+
+msgid "friday"
+msgstr "Freitag"
+
+msgid "saturday"
+msgstr "Samstag"
+
+msgid "sunday"
+msgstr "Sonntag"
+
+msgid "edit"
+msgstr "bearbeiten"
+
+msgid "street"
+msgstr "Straße"
+
+msgid "city"
+msgstr "Stadt"
+
+msgid "zip"
+msgstr "PLZ"
+
+msgid "phone"
+msgstr "Telefon"
+
+msgid "fax"
+msgstr "Fax"
+
+msgid "email"
+msgstr "E-Mail"
+
+msgid "additionalHoursText"
+msgstr "Zusatzinfos"
+
+msgid "monday start"
+msgstr "Montag Start"
+
+msgid "monday end"
+msgstr "Montag Ende"
+
+msgid "tuesday start"
+msgstr "Dienstag Start"
+
+msgid "tuesday end"
+msgstr "Dienstag Ende"
+
+msgid "wednesday start"
+msgstr "Mittwoch Start"
+
+msgid "wednesday end"
+msgstr "Mittwoch Ende"
+
+msgid "thursday start"
+msgstr "Donnerstag Start"
+
+msgid "thursday end"
+msgstr "Donnerstag Ende"
+
+msgid "friday start"
+msgstr "Freitag Start"
+
+msgid "friday end"
+msgstr "Freitag Ende"
+
+msgid "saturday start"
+msgstr "Samstag Start"
+
+msgid "saturday end"
+msgstr "Samstag Ende"
+
+msgid "sunday start"
+msgstr "Sonntag Start"
+
+msgid "sunday end"
+msgstr "Sonntag Ende"
+
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+msgid "Next page"
+msgstr "Nächste Seite"
+
+msgid "Sandbox mode active"
+msgstr "Sandbox-Modus aktiv"
+
+msgid "Please fill in YEXT API and account-id first."
+msgstr "Bitte trage erst YEXT API-Keys und Account-ID ein."
+
+msgid "no data available."
+msgstr "keine Daten verfügbar."
